@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+body{
+    background: #296662;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    width: 428px;
+    height: 610px;
+    border-radius: 30px 0 0 30px;
+    background:rgba(37, 58, 63, 0.75);
+    background-image: url(assets/EFEITO\ FOSCO.png);
+    margin-top: 70px;
+    margin-left: 150px;
+    box-shadow: -16px 15px 4px rgba(0,0,0,0.4);
+}
+
+.logo img{
+    width: 288px;
+    height: 285px;
+    margin: 20px 0 0 50px;
+}
+
+.logo span{
+    font-weight: 100;
+    letter-spacing: 6px;
+    font-size: 40px;
+    padding: 8px 0 0 48px;
+}
+
+/*Estilizando a div formulario*/
+#formulario{
+    display: flex;
+    flex-direction: column;
+    width: 647;
+    height: 610px;
+    background: #296662;
+    border: 2px solid rgba(230, 218, 206, 0.15);  
+    border-radius: 0 30px 30px 0;
+    background-image: url(assets/EFEITO\ FOSCOo.png);
+    margin-top: 70px;
+    margin-right: 150px;
+    box-shadow: 16px 15px 4px rgba(0, 0, 0, 0.4);
+}
+/*-------------------------*/
+
+.titulo{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 25px 0 0 215px;
+}
+
+#name,
+#brand,
+#cnpj,
+#addres,
+#number,
+#seller
+{
+    width: 350px;
+    height: 45px;
+    background: linear-gradient(to bottom, #E6DACE, #FFFFFF);
+    border-radius: 65px;
+    text-align: left;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    color: black;
+    padding-left: 8px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+#confirm{
+    width: 150px;
+    height: 45px;
+    background: transparent;
+    border-radius: 65px;
+    text-align: center;
+    border: none;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    padding-left: 8px;
+    margin-left: 325px;
+    margin-top: 40px;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
