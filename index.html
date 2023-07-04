@@ -1,49 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Biblioteca para a utilização dos icones-->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <!------------------------------------------->
-        <link rel="stylesheet" href="style.css">
-        <title>EasyShip Solutions</title>
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400&display=swap" rel="stylesheet">
 
-        <header id="cabecacalho">
-
-            <div class="logo">
-
-                <img src="assets/logo.png" alt="logosystem">
-
-                <span class="txt-welcome">BEM-VINDO</span>
-
-            </div>
-
-        </header>
-
-        <div class="container-fornecedor">
-
-            <form id="cadastrar">
-
-                <h1>CADASTRAR FORNECEDOR</h1>
-
-                <input type="text" id="nome" placeholder="NOME FANTASIA">
-                <input id="brand" placeholder="MARCA">
-                <input id="cnpj" placeholder="CNPJ">
-                <input id="addres" placeholder="ENDEREÇO">
-                <input id="number" placeholder="TELEFONE">
-                <input id="seller" placeholder="VENDEDOR">
-
-                <button id="submit">CONFIRMAR</button>
-
-            </form>
-
+    <title>Login</title>
+</head>
+<body>
+    <section id="infor-login">
+        <form  id="login" onsubmit="return fazerLogin()">
+        <div id="container-pai">
+        <div id="left-box">
+            <img class="logo-login" src="assets/Logo.png" alt   ="logo">
+            <h1 class="login-tittle">BEM-VINDO</h1>
+            <span> AINDA NÃO É CADASTRADO? <br> CLIQUE NO BOTÃO ABAIXO PARA SE CADASTRAR</span>
+            <button onclick="window.location.href='cadastro.html'" id="fazer_cadastro" >FAZER CADASTRO</button>
         </div>
-
-        <script src="script.js  "></script>
-    </body>
+        <div id="right-box">
+           
+            <div class="botoes-login">
+                <h1 class="tittle-login">LOGIN</h1>
+                <form id="login-usuario"></form>
+                <div class="inputs-login"><img src="assets/Icon Email.png" alt=""><input type="email"  id="email_login" placeholder="E-MAIL" required></div>
+                <div class="inputs-login"><img src="assets/Lock Icon.png" alt=""><input type="password" id="senha_login" placeholder="SENHA" required></div>
+               <a href="redefinir-1.html"><p class="esq-senha">ESQUECEU SUA SENHA</p> </a>     
+            <button id="confirmar-login" type="submit" onclick="validarLogin()">ENTRAR</button>
+        </div>
+        </div>  
+        </div>
+    </section>
+    <script src="cadastro.js"></script>
+</body>
 </html>
