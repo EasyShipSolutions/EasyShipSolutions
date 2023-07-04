@@ -40,7 +40,7 @@ function fazerLogin() {
     var email = document.getElementById("email_login").value;
     var senha = document.getElementById("senha_login").value;
 
-    // Obtém a lista de usuários cadastrados do localStorage ou cria uma nova lista vazia
+
     var usuariosCadastrados = JSON.parse(localStorage.getItem("usuarios")) || [];
 
     // Verifica se o usuário existe e se a senha está correta
@@ -49,16 +49,16 @@ function fazerLogin() {
     });
 
     if (usuarioExistente) {
-        // Se o usuário existe e a senha está correta, exibe um alerta de login bem-sucedido
+
         alert("Login bem-sucedido! Bem-vindo, " + usuarioExistente.nome + "!");
 
         // Reseta o formulário de login
         document.getElementById("login").reset();
 
-        // Redireciona o usuário para a página inicial
-        window.location.href = "tela-inicial.html";
+
+        window.location.href = "index.html";
     } else {
-        // Se o usuário não existe ou a senha está incorreta, exibe um alerta de erro
+
         alert("Email ou senha incorretos. Por favor, tente novamente.");
     }
 
@@ -105,7 +105,7 @@ function redefinirSenha() {
             alert("Sua senha foi redefinida com sucesso.");
 
             // Redireciona o usuário para a página de login
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         } else {
             // Se o usuário não existir na lista, exibe um 
             alert("Email não cadastrado. Por favor, verifique o email digitado.");
