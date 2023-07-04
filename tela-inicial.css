@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #296662;
+}
+#centro{
+    display: flex;
+    margin-top: 5em;
+    margin-left: 12.5em;
+}
+.esconde{
+    display: none;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(37, 58, 63, 1);
+    height: 32em;
+    width: 20em;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: width 0.3s ease;
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(37, 58, 63, 1);
+    height: 32em;
+    width: 5em;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 150px;
+    transition: width 0.3s ease;
+
+}
+#setaDireita{
+    width: 28px;
+    margin-left: 22px;
+    margin-top: 20px;
+    margin-bottom: 5em;
+}
+.opc{
+    margin-bottom: 4em;
+}
+.opc img{
+    height: 62px;
+}
+#usuario2{
+    margin-left: 12.5px;
+    height: 40px;
+}
+#botao{
+    height: 62px;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    color: white;
+
+}
+.titulo img{
+    max-height: 20px;
+    margin-top: 20px;
+}
+h4{
+    margin-right: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    height: 400;
+
+}
+.cadastrar{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    height: 300;
+    margin-top: 20px;
+    
+}
+.cadastrar span{
+    background: unset;
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-top:6px;
+    font-size: 15px;
+} 
+.cadastrar img{
+    height: 55px;
+}
+.consultar{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    height: 300;
+}
+.consultar span{
+    background: unset;
+    border: none;
+    color: white;
+    margin-top:6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+.consultar img{
+    height: 55px;
+}
+.remover{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    height: 300;
+}
+.remover span{
+    background: unset;
+    border: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.remover  img{
+    height: 55px;
+}
+.sair{
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    height: 300;
+    margin-top: 6em;
+    
+}
+.usuario{
+    display: flex;
+    color: white;
+    flex-direction: row;
+}
+.usuario p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.usuario img{
+    margin-left: 10px;
+    max-height: 35px;
+}
+.sair button{
+    display: flex;
+    background: none;
+    border: solid;
+    border-color: rgb(25, 41, 44);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 4em;
+    width: 22em;
+}
+button img{
+    margin-left: 90px;
+    height: 55px;
+}
+button span{
+    margin-top: 20px;
+    color: white;
+}
+#area-trabalho{
+    background: url(imagens/EFEITO\ FOSCO.png);
+    width: 40em;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+h1{
+    color: rgb(25, 41, 44);
+    margin-top: 2em;
+    margin-left: 8em;
+    font-family: 'Inter', sans-serif;
+    height: 400;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Biblioteca para a utilização dos icones-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <!------------------------------------------->
+        <link rel="stylesheet" href="consultar.css">
+        <link rel="shortcut icon" href="imagens/EasyShip Solutions.png.png" type="image/x-icon">
+        <title>EasyShip Solutions</title>
+    </head>
+    <body>
+
+        <header id="cabecacalho">
+
+            <div class="logo">
+
+                <img src="imagens/EasyShip Solutions.png.png" alt="logosystem">
+
+                <span class="txt-welcome">BEM-VINDO</span>
+
+            </div>
+
+        </header>
+
+        <div class="container-produto">
+            
+            <form id="cadastrar">
+                <a href="tela-inicial.html"><img src="imagens/Setas-duplas.png" alt=""></a>
+                
+                    <h1>CONSULTAR PRODUTO</h1>
+
+                <input type="text" id="nome" placeholder="NOME">
+                <input type="text" id="marca" placeholder="MARCA">
+                <input type="text" id="modelo" placeholder="MODELO">
+                <input type="text" id="cor" placeholder="COR">
+                <input type="text" id="number" placeholder="QUANTIDADE">
+                <input type="text" id="codigo" placeholder="CODIGO">
+
+                <button onclick="salvaDados()" id="submit">CONFIRMAR</button>
+
+            </form>
+
+        </div>
+        <script src="cadastrar-produto.js"></script>
+        <script src="consultar.js"></script>
+        <script src="tela-inicial.js"></script>
+    </body>
+</html>
