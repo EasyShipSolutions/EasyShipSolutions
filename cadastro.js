@@ -29,7 +29,7 @@ function cadastrarUsuario() {
 
         alert("Cadastro realizado com sucesso. Faça login para continuar.");
         document.getElementById("cadastro").reset();
-        window.location.href = "login.html";
+        window.location.href = "index.html";
     }
 
     // Retorna false para evitar o envio do formulário
