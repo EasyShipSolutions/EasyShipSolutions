@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="tela-inicial.css">
+    <link rel="shortcut icon" href="EasyShip Solutions.png.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section id="centro">
+        <div id="menuzim" class="menu">
+            <div class="titulo">
+                <h4>EASYSHIP SOLUTIONS</h4>
+                <img id="setaEsquerda" src="imagens/Setas-duplas.png" onclick="esconder() " alt="">
+            </div>
+                <div class="cadastrar">
+                        <img src="imagens/Cadastrar.png"alt="">
+                        <select name="Cadastrar" id="" >
+                        <option value="">Cadastrar</option>
+                        <option value="V1" onclick="window.location.href='cadastrar-produtos.html'">Cadastrar Produto</option>
+                        <option value="V2">Cadastrar Fornecedor</option>
+                        </select>
+                </div>
+                <div class="consultar">
+                        <img src="imagens/Procurar.png" alt="">
+                        <select>
+                            <option value="" >Consultar</option>
+                            <option value="">Produto</option>
+                            <option value="">Fornecedor</option>
+                        </select>
+                </div>
+                <div class="alterar">
+                        <img src="imagens/Alterar.png" alt="">
+                        <select>
+                            <option value="" >Alterar</option>
+                            <option value="">Produto</option>
+                            <option value="">Fornecedor</option>
+                        </select>
+                </div>
+                <div  class="sair">
+                    <div class="usuario">
+                        <img src="imagens/usuario.png" alt="">
+                        <p>Nome</p>
+                    </div>
+                    <button>
+                            <img src="imagens/Group 14.png" alt="">
+                            <span>
+                                Sair
+                            </span>
+                    </button>
+                </div>
+        </div>
+        <div id="menuzim2" class="esconde">
+            <img id="setaDireita" onclick="aparecer()" src="imagens/Setas-duplas-para-direita.png" alt="">
+            <div class="opc">
+                <img src="imagens/Cadastrar.png" alt="">
+                <img src="imagens/Procurar.png" alt="">
+                <img src="imagens/Alterar.png" alt="">
+            </div>
+            <div class="sair2">
+                <img id="usuario2" src="imagens/usuario.png" alt="">
+                <img id="botao" src="imagens/Group 14.png" alt="">
+            </div>
+        </div>
+        </div>
+        <div id="area-trabalho">
+            <h1>EASYSHIP SOLUTIONS</h1>
+            
+            
+        </div>
+
+        <script src ="tela-inicial.js"></script>
+        <script src ="cadastrar-produtos.html"></script>
+    </section>
+</body>
+</html>
