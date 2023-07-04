@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+    <title>Login</title>
+</head>
+<body>
+    <section id="infor-login">
+        <form  id="login" onsubmit="return fazerLogin()">
+        <div id="container-pai">
+        <div id="left-box">
+            <img class="logo-login" src="assets/Logo.png" alt   ="logo">
+            <h1 class="login-tittle">BEM-VINDO</h1>
+            <span> AINDA NÃO É CADASTRADO? <br> CLIQUE NO BOTÃO ABAIXO PARA SE CADASTRAR</span>
+            <button onclick="window.location.href='cadastro.html'" id="fazer_cadastro" >FAZER CADASTRO</button>
+        </div>
+        <div id="right-box">
+           
+            <div class="botoes-login">
+                <h1 class="tittle-login">LOGIN</h1>
+                <form id="login-usuario"></form>
+                <div class="inputs-login"><img src="assets/Icon Email.png" alt=""><input type="email"  id="email_login" placeholder="E-MAIL" required></div>
+                <div class="inputs-login"><img src="assets/Lock Icon.png" alt=""><input type="password" id="senha_login" placeholder="SENHA" required></div>
+               <a href="redefinir-1.html"><p class="esq-senha">ESQUECEU SUA SENHA</p> </a>     
+            <button id="confirmar-login" type="submit" onclick="validarLogin()">ENTRAR</button>
+        </div>
+        </div>  
+        </div>
+    </section>
+    <script src="cadastro.js"></script>
+</body>
+</html>
