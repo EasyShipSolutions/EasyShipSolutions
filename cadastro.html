@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <section id="infor-cadastro">
+        <form action="" id="cadastro" onsubmit="return cadastrarUsuario()">
+        <div id="container-pai">
+        <div id="left-box">
+            <img class="logo-cadastro" src="assets/Logo.png" alt="logo">
+            <h1 class="">BEM-VINDO</h1>
+            <span> JÁ TEM UMA CONTA? CLIQUE NO <br> BOTÃO ABAIXO PARA FAZER LOGIN</span>
+            <button id="fazer-login" onclick="window.location.href='login.html'">FAZER LOGIN</button>
+        </div>
+        <div id="right-box">
+            <h1 class="tittle-cad">CADASTRE-SE</h1>
+            <div class="botoes-cadastro">
+                <form id="cadastro-usuario"></form>
+                <div class="inputs-cadastro"><img src="assets/User Icon.png"> <input id="user-cadastro" type="text" placeholder="USUÁRIO" ></div>
+                <div class="inputs-cadastro"><img src="assets/Icon Email.png"><input type="email"  id="email_cadastro" placeholder="E-MAIL" ></div>
+                <div class="inputs-cadastro"><img src="assets/Lock Icon.png"><input type="password" id="senha_cadastro" placeholder="SENHA" ></div>
+                <p class="esq-senha">ESQUECEU SUA SENHA</p>
+            <button type="submit" id="confirmar-cadastro" onclick="cadastrarUsuario()">CONFIRMAR</button>
+        </div>
+        </div>
+        </div>
+    </section>
+    <script src="cadastro.js"></script>
+    
+</body>
+</html>

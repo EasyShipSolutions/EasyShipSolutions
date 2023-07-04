@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgba(41, 102, 98, 1);
+}
+
+#container-pai {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    height: 40em;
+
+
+}
+
+#left-box {
+    background-color: rgba(37, 58, 63, 1);
+    background-image: url("assets/Fundo\ Fosco.png");
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    align-items: center;
+    gap: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-family: 'Catamaran', serif;
+    font-weight: 200;
+    width: 34em;
+    border-color: black;
+    color: white
+}
+
+#left-box h1 {
+    font-size: 30pt;
+    font-weight: 100;
+    letter-spacing: 8px;
+}
+
+#left-box span {
+    font-size: 13pt;
+    letter-spacing: 6px;
+}
+
+.logo-cadastro {
+    width: 200px;
+}
+
+#fazer-login {
+    margin-top: 110px;
+    width: 100px;
+    background-color: rgba(230, 218, 206, 1);
+    width: 230px;
+    height: 60px;
+    border-radius: 40px;
+    font-family: 'Catamaran', serif;
+    font-weight: 300;
+    font-size: 12pt;
+    letter-spacing: 5px;
+}
+
+#right-box {
+    background-image: url("assets/Fundo\ Fosco.png");
+    margin-left: -176px;
+
+    width: 40em;
+    align-items: center;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#confirmar-cadastro {
+    margin-top: 50px;
+}
+
+.botoes-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.inputs-cadastro {
+    display: flex;
+    padding: 15px;
+    background-color: rgba(230, 218, 206, 1);
+    margin: 15px 0px 15px 0px;
+    padding: 0px 20px 0px 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px 25px 25px 25px;
+
+
+}
+
+.esq-senha {
+    font-size: 13pt;
+    color: white;
+    font-weight: 100;
+}
+
+
+.inputs-cadastro input {
+    margin-left: 5px;
+    background-color: rgba(230, 218, 206, 1);
+    color: black;
+    border: none;
+    text-align: center;
+    align-items: center;
+    font-weight: 200;
+    font-family: 'Catamaran', serif;
+    font-size: 12pt;
+
+
+}
+
+.inputs-cadastro ::placeholder {
+    margin-left: 20px;
+}
+
+#confirmar-cadastro {
+    width: 100px;
+    background-color: rgba(230, 218, 206, 1);
+    width: 230px;
+    height: 60px;
+    border-radius: 40px;
+    font-family: 'Catamaran', serif;
+    font-weight: 300;
+    font-size: 12pt;
+    letter-spacing: 5px;
+    margin-top: 155px;
+    margin-left: 12px;
+}
+
+.tittle-cad {
+    color: white;
+    font-family: 'Catamaran', serif;
+    font-weight: 100;
+    font-size: 25pt;
+
+}
