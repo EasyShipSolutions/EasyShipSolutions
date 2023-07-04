@@ -136,19 +136,8 @@ function excluir(){
 
   verificarCadastro();
 
-  if (encontrou !== -1) {
-    // Recupera os dados do localStorage
-    let dadosArmazenados = localStorage.getItem("dados");
-
-    // Converte os dados para objeto
-    let dados = JSON.parse(dadosArmazenados);
-
-    // Remove o objeto do array
-    dados.splice(encontrou, 1);
-
-    // Atualiza os dados no localStorage
-    localStorage.setItem("dados", JSON.stringify(dados));
+  localStorage.removeItem("dados");
 
     alert("Objeto removido com sucesso.");
-  }
+  
 }

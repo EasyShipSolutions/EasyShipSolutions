@@ -11,7 +11,4 @@ function esconder() {
     let barraLateral2 = document.getElementById('menuzim');
     barraLateral2.classList = "menu";
   }
-  function red{
-    
-  }
 

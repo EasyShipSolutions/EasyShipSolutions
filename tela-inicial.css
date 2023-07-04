@@ -24,9 +24,6 @@ body{
     border-bottom-left-radius: 20px;
     transition: width 0.3s ease;
 }
-.menu option{
-    background-color: rgba(37, 58, 63, 1);
-}
 .menu2{
     display: flex;
     flex-direction: column;
@@ -85,11 +82,12 @@ h4{
     margin-top: 20px;
     
 }
-.cadastrar select{
+.cadastrar span{
     background: unset;
     border: none;
     color: white;
     font-family: 'Inter', sans-serif;
+    margin-top:6px;
     font-size: 15px;
 } 
 .cadastrar img{
@@ -101,30 +99,32 @@ h4{
     font-family: 'Inter', sans-serif;
     height: 300;
 }
-.consultar select{
+.consultar span{
     background: unset;
     border: none;
     color: white;
+    margin-top:6px;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
 }
 .consultar img{
     height: 55px;
 }
-.alterar{
+.remover{
     display: flex;
     flex-direction: row;
     font-family: 'Inter', sans-serif;
     height: 300;
 }
-.alterar select{
+.remover span{
     background: unset;
     border: none;
     color: white;
     font-family: 'Inter', sans-serif;
+    margin-top: 15px;
     font-size: 15px;
 }
-.alterar  img{
+.remover  img{
     height: 55px;
 }
 .sair{
